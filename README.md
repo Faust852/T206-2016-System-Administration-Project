@@ -6,7 +6,11 @@ https://hub.docker.com/u/faust852/
 
 TODO list :
 -Reverse proxy for web servers;
+
 -Containerize the FW inside docker;
+
 -Install PHP on web servers;
+
 -Complete the wiki;
+
 -Docker Compose the totality of the work.
