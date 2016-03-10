@@ -1,0 +1,14 @@
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere
+80                         ALLOW IN    Anywhere
+8080                       ALLOW IN    Anywhere
+8081 on docker0            ALLOW IN    Anywhere
+10000                      ALLOW IN    Anywhere
+53                         ALLOW IN    Anywhere
+22 (v6)                    ALLOW IN    Anywhere (v6)
+80 (v6)                    ALLOW IN    Anywhere (v6)
+8080 (v6)                  ALLOW IN    Anywhere (v6)
+8081 (v6) on docker0       ALLOW IN    Anywhere (v6)
+10000 (v6)                 ALLOW IN    Anywhere (v6)
+53 (v6)                    ALLOW IN    Anywhere (v6)
