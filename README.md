@@ -15,3 +15,5 @@ TODO list :
 -Complete the wiki;
 
 -Docker Compose the totality of the work.
+
+-Check Fail2Ban
