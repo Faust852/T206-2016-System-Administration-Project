@@ -17,3 +17,11 @@ TODO list :
 -Docker Compose the totality of the work.
 
 -Check Fail2Ban
+
+-Check Lynx
+
+-Add intranet to DNS server 
+
+-Proxy
+
+-DNS for employees
