@@ -16,3 +16,4 @@ b2b		IN      A	51.255.40.2
 www		IN      A	51.255.40.2
 @		IN	A	51.255.40.2
 mail		IN	A	51.255.40.2
+intranet	IN	A	172.17.0.9 ; l'ip de intranet (static entry)
