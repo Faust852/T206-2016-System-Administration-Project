@@ -1,0 +1,89 @@
+﻿;
+; User configuration
+;
+
+[general]
+hasvoicemail = yes
+hassip = yes
+hasiax = yes
+callwaiting = yes
+threewaycalling = yes
+callwaitingcallerid = yes
+transfer = yes
+canpark = yes
+cancallforward = yes
+callreturn = yes
+callgroup = 1
+pickupgroup = 1
+nat = yes
+
+[Ouvrier](!)
+type=friend
+host=dynamic
+dtmfmode=rfc2833
+disallow=all
+allow=ulaw
+context = ouv
+
+[Secretaire](!)
+type=friend
+host=dynamic
+dtmfmode=rfc2833
+disallow=all
+allow=ulaw
+context = Secretai
+
+[Comptable](!)
+type=friend
+host=dynamic
+dtmfmode=rfc2833
+disallow=all
+allow=ulaw
+context = Compta
+
+[Commerciaux](!)
+type=friend
+host=dynamic
+dtmfmode=rfc2833
+disallow=all
+allow=ulaw
+context = Commerci
+
+[Directeur](!)
+type=friend
+host=dynamic
+dtmfmode=rfc2833
+disallow=all
+allow=ulaw
+context = Direct
+
+
+[55](Directeur)
+fullname = Adrien CULEM
+username = aculem
+secret=secret
+
+[4401](Commerciaux)
+fullname = David MICCICHE
+username = dmicciche
+secret=secret
+
+[4402](Commerciaux)
+fullname = Kevin MUZETTE
+username = kmuzette
+secret=secret
+
+[22](Secretaire)
+fullname = Adrien GAUDIN
+username = agaudin
+secret=secret
+
+[3301](Comptable)
+fullname = trololo
+username = lolo
+secret = secret
+
+[3302](Comptable)
+fullname = trolololo
+username = lol
+secret = secret
