@@ -1,0 +1,1 @@
+Basic dockerfile ta create a mysql database, with an shared volume et access toward standard port 3306 for mysql
