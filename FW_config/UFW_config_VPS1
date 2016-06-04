@@ -1,0 +1,45 @@
+To                         Action      From
+--                         ------      ----
+10000                      ALLOW       Anywhere #webmin
+
+22                         ALLOW       Anywhere #ssh
+
+80                         ALLOW       Anywhere #http
+443                        ALLOW       Anywhere #https
+#mail
+25                         ALLOW       Anywhere 
+110                        ALLOW       Anywhere 
+143                        ALLOW       Anywhere
+465                        ALLOW       Anywhere
+587                        ALLOW       Anywhere
+993                        ALLOW       Anywhere
+995                        ALLOW       Anywhere
+#voip
+5060                       ALLOW       Anywhere
+2727                       ALLOW       Anywhere
+4569                       ALLOW       Anywhere
+4573                       ALLOW       Anywhere
+5036                       ALLOW       Anywhere
+5036                       ALLOW       Anywhere
+10000:20000                ALLOW       Anywhere
+
+53/udp                     ALLOW       Anywhere #dns
+
+10000 (v6)                 ALLOW       Anywhere (v6)
+22 (v6)                    ALLOW       Anywhere (v6)
+80 (v6)                    ALLOW       Anywhere (v6)
+443 (v6)                   ALLOW       Anywhere (v6)
+25/tcp (v6)                ALLOW       Anywhere (v6)
+110 (v6)                   ALLOW       Anywhere (v6)
+143 (v6)                   ALLOW       Anywhere (v6)
+465 (v6)                   ALLOW       Anywhere (v6)
+587 (v6)                   ALLOW       Anywhere (v6)
+993 (v6)                   ALLOW       Anywhere (v6)
+995 (v6)                   ALLOW       Anywhere (v6)
+5060 (v6)                  ALLOW       Anywhere (v6)
+2727     (v6)              ALLOW       Anywhere (v6)
+4569     (v6)              ALLOW       Anywhere (v6)
+4573     (v6)              ALLOW       Anywhere (v6)
+5036     (v6)              ALLOW       Anywhere (v6)
+10000:20000     (v6)       ALLOW       Anywhere (v6)
+53/udp (v6)                ALLOW       Anywhere (v6)
