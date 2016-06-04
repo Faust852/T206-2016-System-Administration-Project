@@ -8,7 +8,7 @@ exten => _22,2,Hangup()
 exten => _44xx,1,Dial(SIP/${EXTEN},20)
 exten => _44xx,2,Hangup()
 exten => _55,1,Dial(SIP/22,20)
-exten => _55,2,Hangup()
+exten => _55,2,VoiceMail(55@Direct)
 exten => _33xx,1,Dial(SIP/${EXTEN},20)
 exten => _33,2,Hangup()
 
@@ -22,9 +22,11 @@ exten => _33,2,Hangup()
 exten => _44xx,1,Dial(SIP/${EXTEN},20)
 exten => _44xx,2,Hangup()
 exten => _55,1,Dial(SIP/55,20)
-exten => _55,2,Hangup()
+exten => _55,2,VoiceMail(55@Direct)
 exten => _33xx,1,Dial(SIP/${EXTEN},20)
 exten => _33xx,2,Hangup()
+
+exten => 220,1,VoiceMailMain(22@Secretai)
 
 [Compta]
 exten => _33,1,Dial(SIP/3301&SIP/3302,20)
@@ -38,11 +40,7 @@ exten => _11,2,Hangup()
 exten => _44xx,1,Dial(SIP/${EXTEN},20)
 exten => _44xx,2,Hangup()
 
-
-
-
-
-[Compta]
+[Commerci]
 exten => _33,1,Dial(SIP/3301&SIP/3302,20)
 exten => _33,2,Hangup()
 exten => _33xx,1,Dial(SIP/${EXTEN},20)
@@ -53,9 +51,21 @@ exten => _11,1,Dial(SIP/11,20)
 exten => _11,2,Hangup()
 exten => _44xx,1,Dial(SIP/${EXTEN},20)
 exten => _44xx,2,Hangup()
+
+
+[Direct]
+exten => _33,1,Dial(SIP/3301&SIP/3302,20)
+exten => _33,2,Hangup()
+exten => _33xx,1,Dial(SIP/${EXTEN},20)
+exten => _33xx,2,Hangup()
+exten => _22,1,Dial(SIP/22,20)
+exten => _22,2,VoiceMail(22@Secretai)
+exten => _11,1,Dial(SIP/11,20)
 exten => _11,2,Hangup()
 exten => _44xx,1,Dial(SIP/${EXTEN},20)
 exten => _44xx,2,Hangup()
-exten => _33xx,1,Dial(SIP/${EXTEN},20)
-exten => _33xx,2,Hangup()
+exten => _6001,1,Dial(SIP/6001@51.255.34.191,20)
+exten => _6001,2,Hangup()
+
+exten => 550,1,VoiceMailMain(55@Direct)
 
