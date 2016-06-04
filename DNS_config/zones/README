@@ -1,0 +1,2 @@
+2 zones files, please use the master zone file for your main DNS, which is the one who forward toward all the services.
+the secondary zone file is used for the local PCs on the VPS 2, to only allow access to the intranet in local
