@@ -16,4 +16,6 @@ www		IN      A	51.255.40.2
 @		IN	A	51.255.40.2
 mail		IN	A	51.255.40.2
 owncloud	IN	A	51.255.42.56
-test		IN 	A	51.255.40.2
+voip		IN	A	51.255.40.2
+
+_sip._udp	IN	SRV 0 0 5060 voip
