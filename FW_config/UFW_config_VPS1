@@ -11,6 +11,9 @@ To                         Action      From
 80                         ALLOW       Anywhere 
 443                        ALLOW       Anywhere 
 
+#db
+3306 on docker0            ALLOW       Anywhere
+
 #mail
 25                         ALLOW       Anywhere 
 110                        ALLOW       Anywhere 
