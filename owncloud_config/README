@@ -1,0 +1,3 @@
+owncloud.conf and 000-default.conf are configuration files you put on /etc/apache2/sites-enabled
+
+We just added on line on default.conf, adding a redirect froom *:80 to https://owncloud.wt8.ephec-ti.be/. the goal is to force SSL when connecting.
